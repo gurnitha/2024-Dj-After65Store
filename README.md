@@ -240,3 +240,16 @@ Membuat aplikasi ecommece After65Store menggunakan Django versi 5
 
 
 ## 5. DJANGO APP
+
+
+#### 1. Membuat folder app di dalam folder root
+
+        C:\Users\ING\Desktop\2024-DEVSPACE\2024-Dj-After65Store\root(main -> origin)
+        (After65Store) λ REM: Membuat folder app di dalam folder root
+
+        (After65Store) λ mkdir app
+
+        (After65Store) λ ls
+        app/  config/  db.sqlite3  manage.py*  README.md
+
+        modified:   README.md
