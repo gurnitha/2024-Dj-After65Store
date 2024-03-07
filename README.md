@@ -512,3 +512,34 @@ Membuat aplikasi ecommece After65Store menggunakan Django versi 5
 
 
 ## 8. DJANGO APP SETTING
+
+
+#### 1. Membuat app setting
+
+        C:\Users\ING\Desktop\2024-DEVSPACE\2024-Dj-After65Store\root(main -> origin)
+        (After65Store) λ mkdir app\setting
+
+        (After65Store) λ python manage.py startapp setting app\setting
+
+        (After65Store) λ tree app/setting /f
+        Folder PATH listing
+        Volume serial number is C0000100 1A60:D2FA
+        C:\USERS\ING\DESKTOP\2024-DEVSPACE\2024-DJ-AFTER65STORE\ROOT\APP\SETTING
+        │   admin.py
+        │   apps.py
+        │   models.py
+        │   tests.py
+        │   views.py
+        │   __init__.py
+        │
+        └───migrations
+                __init__.py
+
+        modified:   README.md
+        new file:   app/setting/__init__.py
+        new file:   app/setting/admin.py
+        new file:   app/setting/apps.py
+        new file:   app/setting/migrations/__init__.py
+        new file:   app/setting/models.py
+        new file:   app/setting/tests.py
+        new file:   app/setting/views.py
