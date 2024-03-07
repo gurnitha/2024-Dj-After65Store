@@ -311,3 +311,10 @@ Membuat aplikasi ecommece After65Store menggunakan Django versi 5
 
         modified:   README.md
         modified:   config/settings.py
+
+
+#### 3. Membuat laman Home menampilkan Hallo World dari templates, views, urls
+
+        modified:   README.md
+        modified:   app/shop/views.py
+        new file:   templates/shop/index.html
