@@ -364,3 +364,9 @@ Membuat aplikasi ecommece After65Store menggunakan Django versi 5
         new file:   templates/base.html
         modified:   templates/shop/index.html
 
+
+#### 10. Template inheritance part 1 - Move main pada base template pada home page
+
+        modified:   README.md
+        modified:   templates/base.html
+        modified:   templates/shop/index.html
