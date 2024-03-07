@@ -552,3 +552,13 @@ Membuat aplikasi ecommece After65Store menggunakan Django versi 5
         modified:   config/urls.py
         new file:   templates/setting/about.html
         modified:   templates/shared/02_header.html
+
+
+#### 3. Membuat template inheritance pada laman about
+
+        modified:   README.md
+        modified:   templates/setting/about.html
+        new file:   templates/shared/_brand.html
+        new file:   templates/shared/_services.html
+        new file:   templates/shared/_testimonial.html
+        modified:   templates/shop/index.html

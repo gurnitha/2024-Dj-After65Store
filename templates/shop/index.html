@@ -12,9 +12,11 @@
     {% include 'shop/components/1_home/02_banner_1.html' %}
     <!-- 02_banner_1 -->
 
-    <!-- 03_services -->
-    {% include 'shop/components/1_home/03_services.html' %}
-    <!-- 03_services end -->
+    <!-- shared/_services -->
+    <div class="feature-area pb-100px">
+        {% include 'shared/_services.html' %}
+    </div>
+    <!-- shared/_services end -->
 
     <!-- 04_product -->
     {% include 'shop/components/1_home/04_product.html' %}
@@ -24,12 +26,12 @@
     {% include 'shop/components/1_home/05_deal_of_the_day.html' %}
     <!-- 05_deal_of_the_day end -->
 
-    <!-- 06_testimonial -->
-    {% include 'shop/components/1_home/06_testimonial.html' %}
-    <!-- 06_testimonial end -->
+    <!-- shared/_testimonial -->
+    {% include 'shared/_testimonial.html' %}
+    <!-- shared/_testimonial end -->
 
-    <!-- 07_brand -->
-    {% include 'shop/components/1_home/07_brand.html' %}
-    <!-- 07_brand end -->
+    <!-- shared/_brand -->
+    {% include 'shared/_brand.html' %}
+    <!-- shared/_brand end -->
 
 {% endblock content %}
