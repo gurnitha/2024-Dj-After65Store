@@ -370,3 +370,20 @@ Membuat aplikasi ecommece After65Store menggunakan Django versi 5
         modified:   README.md
         modified:   templates/base.html
         modified:   templates/shop/index.html
+
+
+#### 12. Template inheritance part 2 - Membuat shared template and use include
+
+        modified:   README.md
+        modified:   templates/base.html
+        new file:   templates/shared/00_head.html
+        new file:   templates/shared/01_top_bar.html
+        new file:   templates/shared/02_header.html
+        new file:   templates/shared/03_off_canvas_wishlist.html
+        new file:   templates/shared/04_off_canvas_cart.html
+        new file:   templates/shared/05_off_canvas_mobile_menu.html
+        new file:   templates/shared/12_footer.html
+        new file:   templates/shared/13_modal_pop_up_search.html
+        new file:   templates/shared/14_modal_login_register.html
+        new file:   templates/shared/15_modal_image_zoom.html
+        new file:   templates/shared/16_scripts.html
