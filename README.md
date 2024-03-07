@@ -331,3 +331,9 @@ Membuat aplikasi ecommece After65Store menggunakan Django versi 5
 
         modified:   README.md
         modified:   templates/shop/index.html
+
+
+#### 6. STATAC FILE part 1- Membuat STATICFILES_DIRS
+
+        modified:   README.md
+        modified:   config/settings.py
