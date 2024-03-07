@@ -356,3 +356,11 @@ Membuat aplikasi ecommece After65Store menggunakan Django versi 5
         modified:   static/assets/css/style.css
         new file:   static/assets/css/uicons-regular-straight.css
         modified:   templates/shop/index.html
+
+
+#### 9. Membuat base template dan extends base template pada home page
+
+        modified:   README.md
+        new file:   templates/base.html
+        modified:   templates/shop/index.html
+
