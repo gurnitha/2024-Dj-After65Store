@@ -104,3 +104,32 @@ Membuat aplikasi ecommece After65Store menggunakan Django versi 5
             startproject <---
             test
             testserver
+
+
+#### 2. Membuat proyek django dengan nama 'config'
+
+        C:\Users\ING\Desktop\2024-DEVSPACE\2024-Dj-After65Store(main -> origin)
+        (After65Store) λ REM: Membuat proyek django dengan nama 'config'
+
+        (After65Store) λ django-admin startproject config
+
+        (After65Store) λ tree config /f
+        Folder PATH listing
+        Volume serial number is C0000100 1A60:D2FA
+        C:\USERS\ING\DESKTOP\2024-DEVSPACE\2024-DJ-AFTER65STORE\CONFIG
+        │   manage.py
+        │
+        └───config
+                asgi.py
+                settings.py
+                urls.py
+                wsgi.py
+                __init__.py
+
+        modified:   README.md
+        new file:   config/config/__init__.py
+        new file:   config/config/asgi.py
+        new file:   config/config/settings.py
+        new file:   config/config/urls.py
+        new file:   config/config/wsgi.py
+        new file:   config/manage.py
