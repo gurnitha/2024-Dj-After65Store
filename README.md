@@ -159,3 +159,10 @@ Membuat aplikasi ecommece After65Store menggunakan Django versi 5
         Quit the server with CTRL-BREAK.
 
         modified:   README.md
+
+
+#### 2. Melihat tampilan default django pada browser
+
+        ...
+        Starting development server at http://127.0.0.1:8000/
+        Quit the server with CTRL-BREAK.
