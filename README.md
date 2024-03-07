@@ -441,3 +441,36 @@ Membuat aplikasi ecommece After65Store menggunakan Django versi 5
 
 
 ## 7. DJANGO APP BLOG
+
+
+#### 1. Membuat aplikasi blog
+
+        C:\Users\ING\Desktop\2024-DEVSPACE\2024-Dj-After65Store\root(main -> origin)
+        (After65Store) λ REM: Membuat aplikasi blog
+
+        (After65Store) λ mkdir app\blog
+
+        (After65Store) λ python manage.py startapp blog app\blog
+
+        (After65Store) λ tree app/blog /f
+        Folder PATH listing
+        Volume serial number is C0000100 1A60:D2FA
+        C:\USERS\ING\DESKTOP\2024-DEVSPACE\2024-DJ-AFTER65STORE\ROOT\APP\BLOG
+        │   admin.py
+        │   apps.py
+        │   models.py
+        │   tests.py
+        │   views.py
+        │   __init__.py
+        │
+        └───migrations
+                __init__.py
+
+        modified:   README.md
+        new file:   app/blog/__init__.py
+        new file:   app/blog/admin.py
+        new file:   app/blog/apps.py
+        new file:   app/blog/migrations/__init__.py
+        new file:   app/blog/models.py
+        new file:   app/blog/tests.py
+        new file:   app/blog/views.py
