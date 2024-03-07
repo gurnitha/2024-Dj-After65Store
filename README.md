@@ -499,3 +499,12 @@ Membuat aplikasi ecommece After65Store menggunakan Django versi 5
         new file:   templates/blog/components/07_sidebar_banner.html
         new file:   templates/blog/components/08_sidebar_tags.html
         modified:   templates/blog/post_list.html
+
+
+#### 4. Membuat template post_details
+
+        modified:   README.md
+        modified:   app/blog/urls.py
+        modified:   app/blog/views.py
+        modified:   templates/blog/components/02_post_list.html
+        new file:   templates/blog/post_details.html
