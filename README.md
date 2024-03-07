@@ -325,3 +325,9 @@ Membuat aplikasi ecommece After65Store menggunakan Django versi 5
         modified:   README.md
         modified:   app/shop/views.py
         modified:   templates/shop/index.html
+
+
+#### 5. Mengisi html template pada home page
+
+        modified:   README.md
+        modified:   templates/shop/index.html
