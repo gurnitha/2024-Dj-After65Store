@@ -186,3 +186,53 @@ Membuat aplikasi ecommece After65Store menggunakan Django versi 5
         renamed:    config/config/urls.py -> root/config/urls.py
         renamed:    config/config/wsgi.py -> root/config/wsgi.py
         renamed:    config/manage.py -> root/manage.py
+
+
+#### 2. Memindahkan file README.md dan .gitignore ke dalam folder root
+
+        Steps:
+
+        1. Pindahkan file README.md dan .gitignore ke dalam folder root (drag and drop)
+        2. Pindahkan folder .git ke dalam root direktori 
+
+        C:\Users\ING\Desktop\2024-DEVSPACE\2024-Dj-After65Store(main -> origin)
+        (After65Store) λ REM: Masuk ke root direktori
+
+        (After65Store) λ ls
+        root/  venv312502/
+
+        (After65Store) λ cd root\
+
+        C:\Users\ING\Desktop\2024-DEVSPACE\2024-Dj-After65Store\root(main -> origin)
+        (After65Store) λ ls
+        config/  db.sqlite3  manage.py*  README.md
+
+        (After65Store) λ tree /f
+        Folder PATH listing
+        Volume serial number is C0000100 1A60:D2FA
+        C:.
+        │   .gitignore
+        │   db.sqlite3
+        │   manage.py
+        │   README.md
+        │
+        └───config
+            │   asgi.py
+            │   settings.py
+            │   urls.py
+            │   wsgi.py
+            │   __init__.py
+            │
+            └───__pycache__
+                    settings.cpython-312.pyc
+                    urls.cpython-312.pyc
+                    wsgi.cpython-312.pyc
+                    __init__.cpython-312.pyc
+
+        modified:   README.md
+        renamed:    root/config/__init__.py -> config/__init__.py
+        renamed:    root/config/asgi.py -> config/asgi.py
+        renamed:    root/config/settings.py -> config/settings.py
+        renamed:    root/config/urls.py -> config/urls.py
+        renamed:    root/config/wsgi.py -> config/wsgi.py
+        renamed:    root/manage.py -> manage.py
