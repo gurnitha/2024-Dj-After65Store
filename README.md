@@ -73,3 +73,6 @@ Membuat aplikasi ecommece After65Store menggunakan Django versi 5
         (After65Store) λ python.exe -m pip install --upgrade pip
         ...
         Successfully installed pip-24.0
+
+
+## 2. DJANGO PROJECT
