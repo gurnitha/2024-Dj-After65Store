@@ -387,3 +387,26 @@ Membuat aplikasi ecommece After65Store menggunakan Django versi 5
         new file:   templates/shared/14_modal_login_register.html
         new file:   templates/shared/15_modal_image_zoom.html
         new file:   templates/shared/16_scripts.html
+
+
+#### 13. Template inheritance part 3 - Membuat component template
+
+        modified:   README.md
+        modified:   templates/base.html
+        renamed:    templates/shared/12_footer.html -> templates/shared/06_footer.html
+        renamed:    templates/shared/13_modal_pop_up_search.html -> templates/shared/07_modal_pop_up_search.html
+        renamed:    templates/shared/14_modal_login_register.html -> templates/shared/08_modal_login_register.html
+        renamed:    templates/shared/15_modal_image_zoom.html -> templates/shared/09_modal_image_zoom.html
+        renamed:    templates/shared/16_scripts.html -> templates/shared/10_scripts.html
+        new file:   templates/shop/components/01_hero_slider.html
+        new file:   templates/shop/components/02_banner_1.html
+        new file:   templates/shop/components/03_services.html
+        new file:   templates/shop/components/04_product.html
+        new file:   templates/shop/components/05_deal_of_the_day.html
+        new file:   templates/shop/components/06_testimonial.html
+        new file:   templates/shop/components/07_brand.html
+        modified:   templates/shop/index.html
+
+        Note:
+
+        Dilakukan perubahan penomoran file pada shared folder
