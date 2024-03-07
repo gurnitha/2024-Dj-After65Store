@@ -437,3 +437,7 @@ Membuat aplikasi ecommece After65Store menggunakan Django versi 5
         NOTE: 
 
         Rename: from components to components/1_home and move the file to it
+
+
+
+## 7. DJANGO APP BLOG
