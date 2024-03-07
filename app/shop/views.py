@@ -5,4 +5,14 @@ from django.shortcuts import render
 
 
 def home_view(request):
-	return render(request, 'shop/index.html')
+
+	# data
+	page_title 	= 'After65Shop'
+	customer 	= 'Ujang'
+
+	context_dictionary = {
+		'page_title':page_title,
+		'customer':customer
+	}
+	
+	return render(request, 'shop/index.html', context_dictionary)
