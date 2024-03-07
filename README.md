@@ -166,3 +166,8 @@ Membuat aplikasi ecommece After65Store menggunakan Django versi 5
         ...
         Starting development server at http://127.0.0.1:8000/
         Quit the server with CTRL-BREAK.
+
+
+
+## 4. STRUKTUR PROYEK
+
