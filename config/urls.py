@@ -12,4 +12,7 @@ urlpatterns = [
 
     # shop path
     path('', include('app.shop.urls', namespace='shop')),
+
+    # blog path
+    path('', include('app.blog.urls', namespace='blog')),
 ]

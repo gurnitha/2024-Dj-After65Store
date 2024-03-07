@@ -474,3 +474,13 @@ Membuat aplikasi ecommece After65Store menggunakan Django versi 5
         new file:   app/blog/models.py
         new file:   app/blog/tests.py
         new file:   app/blog/views.py
+
+
+#### 1. Membuat laman blog
+
+        modified:   README.md
+        new file:   app/blog/urls.py
+        modified:   app/blog/views.py
+        modified:   config/urls.py
+        new file:   templates/blog/post_list.html
+        modified:   templates/shared/02_header.html
