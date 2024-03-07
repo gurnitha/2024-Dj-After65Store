@@ -20,3 +20,16 @@ Membuat aplikasi ecommece After65Store menggunakan Django versi 5
 
         modified:   .gitignore
         modified:   README.md
+
+
+#### 2. Mengaktifkan venv312502
+
+        C:\Users\ING\Desktop\2024-DEVSPACE\2024-Dj-After65Store(main -> origin)
+        λ REM: Mengaktifkan venv312502
+
+        λ venv312502\Scripts\activate.bat
+
+        (After65Store) λ 
+
+        Note: 
+        prompt After65Store ada di dalam tanda kurung (After65Store) menandai venv312502 sedang aktif
