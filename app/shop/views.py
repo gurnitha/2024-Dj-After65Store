@@ -1,3 +1,9 @@
-from django.shortcuts import render
+# app/shop/views.py
 
-# Create your views here.
+# Django dan third party modules
+from django.shortcuts import render
+from django.http import HttpResponse
+
+
+def home_view(request):
+	return HttpResponse('<h1>Hallo World</h1><br><p>Selamat datang di After65Shop</p>')
