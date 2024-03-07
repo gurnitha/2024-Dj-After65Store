@@ -337,3 +337,13 @@ Membuat aplikasi ecommece After65Store menggunakan Django versi 5
 
         modified:   README.md
         modified:   config/settings.py
+
+
+#### 7. STATAC FILE part 2- Membuat folder 'static' dan mengisi assets
+
+        modified:   README.md
+        new file:   static/assets/css/plugins/animate.css
+        new file:   static/assets/css/plugins/images/ui-icons_444444_256x240.png
+        ...
+        new file:   static/assets/scss/style.scss
+        modified:   templates/shop/index.html
