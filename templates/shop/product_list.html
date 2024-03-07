@@ -1,0 +1,50 @@
+<!-- templates/shop/product_list.html -->
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+
+    <!-- 01_breadcrumb -->
+    {% include 'shop/components/2_products/01_breadcrumb.html' %}
+    <!-- 01_breadcrumb -->
+
+    <!-- Shop Page Start  -->
+    <div class="shop-category-area pt-100px pb-100px">
+        <div class="container">
+            <div class="row">
+
+            	<!--/////////////////////////////// main content ///////////////////////////////-->
+                <div class="col-lg-9 order-lg-last col-md-12 order-md-first">
+
+                    <!-- 02_shop_top_bar -->
+                    {% include 'shop/components/2_products/02_shop_top_bar.html' %}
+                    <!-- 02_shop_top_bar end -->
+
+                    <!-- Shop Bottom Area Start -->
+                    <div class="shop-bottom-area">
+
+                        <!-- 03_content -->
+                        {% include 'shop/components/2_products/03_content.html' %}
+                        <!-- 03_content end -->
+
+                        <!-- 04_load_more -->
+                        {% include 'shop/components/2_products/04_load_more.html' %}
+                        <!-- 04_load_more -->
+                    </div>
+                    <!-- Shop Bottom Area End -->
+                </div>
+                <!--/////////////////////////////// main content ///////////////////////////////-->
+
+                <!--////////////////////////////////// sidebar /////////////////////////////////-->
+                <div class="col-lg-3 order-lg-first col-md-12 order-md-last mb-md-60px mb-lm-60px">
+                	<!-- 05_sidebar -->
+                    {% include 'shop/components/2_products/05_sidebar.html' %}
+                    <!-- 05_sidebar end -->
+                </div>
+                <!--////////////////////////////////// sidebar /////////////////////////////////-->
+            </div>
+        </div>
+    </div>
+    <!-- Shop Page End  -->
+
+{% endblock content %}

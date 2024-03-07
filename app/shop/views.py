@@ -16,3 +16,8 @@ def home_view(request):
 	}
 	
 	return render(request, 'shop/index.html', context_dictionary)
+
+
+def product_list_view(request):
+
+	return render(request, 'shop/product_list.html')

@@ -410,3 +410,30 @@ Membuat aplikasi ecommece After65Store menggunakan Django versi 5
         Note:
 
         Dilakukan perubahan penomoran file pada shared folder
+
+
+#### 14. Membuat laman product-list
+
+        modified:   README.md
+        modified:   app/shop/urls.py
+        modified:   app/shop/views.py
+        modified:   templates/shared/02_header.html
+        renamed:    templates/shop/components/01_hero_slider.html -> templates/shop/components/1_home/01_hero_slider.html
+        renamed:    templates/shop/components/02_banner_1.html -> templates/shop/components/1_home/02_banner_1.html
+        renamed:    templates/shop/components/03_services.html -> templates/shop/components/1_home/03_services.html
+        renamed:    templates/shop/components/04_product.html -> templates/shop/components/1_home/04_product.html
+
+        renamed:    templates/shop/components/05_deal_of_the_day.html -> templates/shop/components/1_home/05_deal_of_the_day.html
+        renamed:    templates/shop/components/06_testimonial.html -> templates/shop/components/1_home/06_testimonial.html
+        renamed:    templates/shop/components/07_brand.html -> templates/shop/components/1_home/07_brand.html
+        new file:   templates/shop/components/2_products/01_breadcrumb.html
+        new file:   templates/shop/components/2_products/02_shop_top_bar.html
+        new file:   templates/shop/components/2_products/03_content.html
+        new file:   templates/shop/components/2_products/04_load_more.html
+        new file:   templates/shop/components/2_products/05_sidebar.html
+        modified:   templates/shop/index.html
+        new file:   templates/shop/product_list.html
+
+        NOTE: 
+
+        Rename: from components to components/1_home and move the file to it
