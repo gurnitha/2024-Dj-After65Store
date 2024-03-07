@@ -253,3 +253,43 @@ Membuat aplikasi ecommece After65Store menggunakan Django versi 5
         app/  config/  db.sqlite3  manage.py*  README.md
 
         modified:   README.md
+
+
+#### 2. Membuat app (aplikasi) django di dalam folder app dengan nama 'shop'
+
+        C:\Users\ING\Desktop\2024-DEVSPACE\2024-Dj-After65Store\root(main -> origin)
+        (After65Store) λ REM: Membuat app (aplikasi) django di dalam folder app dengan nama 'shop'
+
+        (After65Store) λ ls
+        app/  config/  db.sqlite3  manage.py*  README.md
+
+        (After65Store) λ mkdir app\shop
+
+        (After65Store) λ python manage.py startapp shop app\shop
+
+        (After65Store) λ ls
+        app/  config/  db.sqlite3  manage.py*  README.md
+
+        (After65Store) λ tree app /f
+        Folder PATH listing
+        Volume serial number is C0000100 1A60:D2FA
+        C:\USERS\ING\DESKTOP\2024-DEVSPACE\2024-DJ-AFTER65STORE\ROOT\APP
+        └───shop
+            │   admin.py
+            │   apps.py
+            │   models.py
+            │   tests.py
+            │   views.py
+            │   __init__.py
+            │
+            └───migrations
+                    __init__.py
+
+        modified:   README.md
+        new file:   app/shop/__init__.py
+        new file:   app/shop/admin.py
+        new file:   app/shop/apps.py
+        new file:   app/shop/migrations/__init__.py
+        new file:   app/shop/models.py
+        new file:   app/shop/tests.py
+        new file:   app/shop/views.py
