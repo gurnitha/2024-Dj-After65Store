@@ -50,3 +50,26 @@ Membuat aplikasi ecommece After65Store menggunakan Django versi 5
 
 
 #### 4. Memeriksa hasil instalasi
+
+        C:\Users\ING\Desktop\2024-DEVSPACE\2024-Dj-After65Store(main -> origin)
+        (After65Store) λ REM: Memeriksa hasil instalasi
+
+        (After65Store) λ pip list
+        Package  Version
+        -------- -------
+        asgiref  3.7.2
+        Django   5.0.2
+        pip      23.2.1
+        sqlparse 0.4.4
+        tzdata   2024.1
+
+        [notice] A new release of pip is available: 23.2.1 -> 24.0
+        [notice] To update, run: python.exe -m pip install --upgrade pip
+
+
+#### 5. Meng-upgrade pip
+
+        C:\Users\ING\Desktop\2024-DEVSPACE\2024-Dj-After65Store(main -> origin)
+        (After65Store) λ python.exe -m pip install --upgrade pip
+        ...
+        Successfully installed pip-24.0
