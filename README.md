@@ -171,3 +171,18 @@ Membuat aplikasi ecommece After65Store menggunakan Django versi 5
 
 ## 4. STRUKTUR PROYEK
 
+
+#### 1. Mengganti nama folder 'config' terluar menjadi 'root'
+
+        C:\Users\ING\Desktop\2024-DEVSPACE\2024-Dj-After65Store(main -> origin)
+        (After65Store) λ REM: Mengganti nama folder 'config' terluar menjadi 'root'
+
+        (After65Store) λ mv config root
+
+        modified:   README.md
+        renamed:    config/config/__init__.py -> root/config/__init__.py
+        renamed:    config/config/asgi.py -> root/config/asgi.py
+        renamed:    config/config/settings.py -> root/config/settings.py
+        renamed:    config/config/urls.py -> root/config/urls.py
+        renamed:    config/config/wsgi.py -> root/config/wsgi.py
+        renamed:    config/manage.py -> root/manage.py
