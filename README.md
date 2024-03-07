@@ -76,3 +76,31 @@ Membuat aplikasi ecommece After65Store menggunakan Django versi 5
 
 
 ## 2. DJANGO PROJECT
+
+
+#### 1. Memeriksa perintah untuk membuat proyek
+
+        C:\Users\ING\Desktop\2024-DEVSPACE\2024-Dj-After65Store(main -> origin)
+        (After65Store) λ REM: Memeriksa perintah untuk membuat proyek
+
+        (After65Store) λ django-admin
+
+        Type 'django-admin help <subcommand>' for help on a specific subcommand.
+
+        Available subcommands:
+
+        [django]
+            check
+            ...
+            dbshell
+            ...
+            makemigrations
+            migrate
+            runserver
+            sendtestemail
+            shell
+            ...
+            startapp
+            startproject <---
+            test
+            testserver
