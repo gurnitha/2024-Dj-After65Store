@@ -47,3 +47,6 @@ Membuat aplikasi ecommece After65Store menggunakan Django versi 5
 
         [notice] A new release of pip is available: 23.2.1 -> 24.0
         [notice] To update, run: python.exe -m pip install --upgrade pip
+
+
+#### 4. Memeriksa hasil instalasi
