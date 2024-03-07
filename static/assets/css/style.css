@@ -352,12 +352,14 @@ input {
 }
 .header-to-bar {
   display: flex;
-  color: #b5b5b5;
+/*  color: #b5b5b5;*/
+  color: whitesmoke;
   font-size: 14px;
-  flex-direction: column;
+/*  flex-direction: column;*/
   line-height: 50px;
-  background-color: #242424;
-  justify-content: center;
+/*  background-color: #242424;*/
+  background-color: #dc3545 !important;
+/*  justify-content: center;*/
   align-items: center;
   font-weight: 300;
 }

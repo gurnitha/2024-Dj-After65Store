@@ -347,3 +347,12 @@ Membuat aplikasi ecommece After65Store menggunakan Django versi 5
         ...
         new file:   static/assets/scss/style.scss
         modified:   templates/shop/index.html
+
+
+#### 8. STATAC FILE part 3- Loading static files
+
+        modified:   README.md
+        new file:   static/assets/css/custom.css
+        modified:   static/assets/css/style.css
+        new file:   static/assets/css/uicons-regular-straight.css
+        modified:   templates/shop/index.html
