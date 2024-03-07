@@ -15,4 +15,7 @@ urlpatterns = [
 
     # blog path
     path('', include('app.blog.urls', namespace='blog')),
+
+    # setting path
+    path('', include('app.setting.urls', namespace='setting')),
 ]

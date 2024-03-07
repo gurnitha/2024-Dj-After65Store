@@ -1,3 +1,9 @@
+# app/setting/views.py
+
+# Django dan third party modules
 from django.shortcuts import render
 
-# Create your views here.
+
+def about_view(request):
+
+	return render(request, 'setting/about.html')
