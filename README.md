@@ -562,3 +562,13 @@ Membuat aplikasi ecommece After65Store menggunakan Django versi 5
         new file:   templates/shared/_services.html
         new file:   templates/shared/_testimonial.html
         modified:   templates/shop/index.html
+
+
+#### 4. Membuat laman contact
+
+        modified:   README.md
+        modified:   app/setting/urls.py
+        modified:   app/setting/views.py
+        modified:   templates/setting/about.html
+        new file:   templates/setting/contact.html
+        modified:   templates/shared/02_header.html
