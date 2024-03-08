@@ -31,3 +31,8 @@ def wishlist_view(request):
 def cart_view(request):
 
 	return render(request, 'shop/cart.html')
+
+
+def checkout_view(request):
+
+	return render(request, 'shop/checkout.html')
