@@ -21,4 +21,7 @@ urlpatterns = [
 
     # account path
     path('', include('app.account.urls', namespace='account')),
+
+    # setting path
+    path('', include('app.setting.urls', namespace='setting')),
 ]

@@ -7,14 +7,14 @@
 
             <div class="offcanvas-menu mb-4">
                 <ul>
-                    <li><a href="index.html"><span class="menu-text">Home</span></a>
+                    <li><a href="{% url 'shop:home' %}"><span class="menu-text">Home</span></a>
                     </li>
-                    <li><a href="product-list.html"><span class="menu-text">Shop</span></a>
+                    <li><a href="{% url 'shop:product_list' %}"><span class="menu-text">Shop</span></a>
                     </li>
-                    <li><a href="blog.html"><span class="menu-text">Blog</span></a>
+                    <li><a href="{% url 'blog:post_list' %}"><span class="menu-text">Blog</span></a>
                     </li>
-                    <li><a href="about.html">About Us</a></li>
-                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="{% url 'page:about' %}">About Us</a></li>
+                    <li><a href="{% url 'page:contact' %}">Contact Us</a></li>
                 </ul>
             </div>
             <!-- OffCanvas Menu End -->

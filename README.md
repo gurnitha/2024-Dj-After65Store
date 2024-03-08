@@ -711,3 +711,23 @@ Membuat aplikasi ecommece After65Store menggunakan Django versi 5
         new file:   app/setting/models.py
         new file:   app/setting/tests.py
         new file:   app/setting/views.py
+
+
+#### 2. Menampilkan data statis
+
+        modified:   README.md
+        new file:   app/setting/urls.py
+        modified:   app/setting/views.py
+        modified:   config/urls.py
+        new file:   templates/setting/setting_data_statis.html
+        modified:   templates/shared/00_head.html
+        modified:   templates/shared/01_top_bar.html
+        modified:   templates/shared/05_off_canvas_mobile_menu.html
+
+
+        NOTE: 
+
+        1. Data tidak berhasil ditampilkan.
+        2. Mungkin kalau data sudah ada di dalam db, data bisa ditampilkan.
+
+        (:
