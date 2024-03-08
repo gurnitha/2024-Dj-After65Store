@@ -1,13 +1,13 @@
-# app/setting/urls.py
+# app/page/urls.py
 
 # Django dan third party modules
 from django.urls import path
 
 # Locals
-from app.setting.views import about_view, contact_view
+from app.page.views import about_view, contact_view
 
 # namespace
-app_name = 'setting'
+app_name = 'page'
 
 
 urlpatterns = [

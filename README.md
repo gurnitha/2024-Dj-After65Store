@@ -572,3 +572,20 @@ Membuat aplikasi ecommece After65Store menggunakan Django versi 5
         modified:   templates/setting/about.html
         new file:   templates/setting/contact.html
         modified:   templates/shared/02_header.html
+
+
+#### 5. Merubah nama app setting menjadi page
+
+        modified:   README.md
+        renamed:    app/setting/__init__.py -> app/page/__init__.py
+        renamed:    app/setting/admin.py -> app/page/admin.py
+        renamed:    app/setting/apps.py -> app/page/apps.py
+        renamed:    app/setting/migrations/__init__.py -> app/page/migrations/__init__.py
+        renamed:    app/setting/models.py -> app/page/models.py
+        renamed:    app/setting/tests.py -> app/page/tests.py
+        renamed:    app/setting/urls.py -> app/page/urls.py
+        renamed:    app/setting/views.py -> app/page/views.py
+        modified:   config/urls.py
+        renamed:    templates/setting/about.html -> templates/page/about.html
+        renamed:    templates/setting/contact.html -> templates/page/contact.html
+        modified:   templates/shared/02_header.html

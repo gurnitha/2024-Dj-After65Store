@@ -1,4 +1,4 @@
-# app/setting/views.py
+# app/page/views.py
 
 # Django dan third party modules
 from django.shortcuts import render
@@ -6,9 +6,9 @@ from django.shortcuts import render
 
 def about_view(request):
 
-	return render(request, 'setting/about.html')
+	return render(request, 'page/about.html')
 
 
 def contact_view(request):
 
-	return render(request, 'setting/contact.html')
+	return render(request, 'page/contact.html')
