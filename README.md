@@ -742,3 +742,21 @@ Membuat aplikasi ecommece After65Store menggunakan Django versi 5
 
 
 ## 10. DATABASE
+
+
+#### 1. Remove statis data from head and top_bar
+
+        mysql> CREATE DATABASE 2024_dj_after65_store;
+        Query OK, 1 row affected (0.15 sec)
+
+        mysql> SHOW DATABASES;
+        +-------------------------------------------+
+        | Database                                  |
+        +-------------------------------------------+
+        | 2024_dj_after65_store                     |
+        | ...
+        | sakila                                    |
+        | sys                                       |
+        | test_db                                   |
+        +-------------------------------------------+
+        42 rows in set (0.14 sec)
