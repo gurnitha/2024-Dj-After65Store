@@ -738,3 +738,7 @@ Membuat aplikasi ecommece After65Store menggunakan Django versi 5
         modified:   README.md
         modified:   templates/shared/00_head.html
         modified:   templates/shared/01_top_bar.html
+
+
+
+## 10. DATABASE
