@@ -673,3 +673,7 @@ Membuat aplikasi ecommece After65Store menggunakan Django versi 5
         modified:   config/urls.py
         new file:   templates/account/register.html
         modified:   templates/shared/02_header.html
+
+
+
+## 9. DJANGO APP SETTING
