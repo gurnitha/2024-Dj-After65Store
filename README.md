@@ -760,3 +760,26 @@ Membuat aplikasi ecommece After65Store menggunakan Django versi 5
         | test_db                                   |
         +-------------------------------------------+
         42 rows in set (0.14 sec)
+
+
+#### 2. Konek db dengan proyek
+
+        C:\Users\ING\Desktop\2024-DEVSPACE\2024-Dj-After65Store\root(main -> origin)
+        (After65Store) λ pip install mysqlclient
+        ...
+        Successfully installed mysqlclient-2.2.4
+
+        # MySQL db
+        DATABASES = {
+            'default': {
+            'ENGINE': 'django.db.backends.mysql',
+            'NAME': '2024_dj_after65_store',
+            'USER': 'root',
+            'PASSWORD': '',
+            'HOST':'localhost',
+            'PORT':'3306',
+            }
+        }
+
+        (After65Store) λ python manage.py check
+        System check identified no issues (0 silenced).
