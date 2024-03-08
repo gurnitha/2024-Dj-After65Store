@@ -630,3 +630,36 @@ Membuat aplikasi ecommece After65Store menggunakan Django versi 5
 
 
 ## 8. DJANGO APP ACCOUNT
+
+
+#### 1. Membuat account app
+
+        C:\Users\ING\Desktop\2024-DEVSPACE\2024-Dj-After65Store\root(main -> origin)
+        (After65Store) λ REM: Membuat account app
+
+        (After65Store) λ mkdir app\account
+
+        (After65Store) λ python manage.py startapp account app\account
+
+        (After65Store) λ tree app/account /f
+        Folder PATH listing
+        Volume serial number is C0000100 1A60:D2FA
+        C:\USERS\ING\DESKTOP\2024-DEVSPACE\2024-DJ-AFTER65STORE\ROOT\APP\ACCOUNT
+        │   admin.py
+        │   apps.py
+        │   models.py
+        │   tests.py
+        │   views.py
+        │   __init__.py
+        │
+        └───migrations
+                __init__.py
+
+        modified:   README.md
+        new file:   app/account/__init__.py
+        new file:   app/account/admin.py
+        new file:   app/account/apps.py
+        new file:   app/account/migrations/__init__.py
+        new file:   app/account/models.py
+        new file:   app/account/tests.py
+        new file:   app/account/views.py
