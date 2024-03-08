@@ -731,3 +731,10 @@ Membuat aplikasi ecommece After65Store menggunakan Django versi 5
         2. Mungkin kalau data sudah ada di dalam db, data bisa ditampilkan.
 
         (:
+
+
+#### 3. Remove statis data from head and top_bar
+
+        modified:   README.md
+        modified:   templates/shared/00_head.html
+        modified:   templates/shared/01_top_bar.html
