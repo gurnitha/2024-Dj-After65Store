@@ -511,20 +511,20 @@ Membuat aplikasi ecommece After65Store menggunakan Django versi 5
 
 
 
-## 8. DJANGO APP SETTING
+## 8. DJANGO APP PAGE
 
 
-#### 1. Membuat app setting
+#### 1. Membuat app page
 
         C:\Users\ING\Desktop\2024-DEVSPACE\2024-Dj-After65Store\root(main -> origin)
-        (After65Store) λ mkdir app\setting
+        (After65Store) λ mkdir app\page
 
-        (After65Store) λ python manage.py startapp setting app\setting
+        (After65Store) λ python manage.py startapp page app\page
 
-        (After65Store) λ tree app/setting /f
+        (After65Store) λ tree app/page /f
         Folder PATH listing
         Volume serial number is C0000100 1A60:D2FA
-        C:\USERS\ING\DESKTOP\2024-DEVSPACE\2024-DJ-AFTER65STORE\ROOT\APP\SETTING
+        C:\USERS\ING\DESKTOP\2024-DEVSPACE\2024-DJ-AFTER65STORE\ROOT\APP\page
         │   admin.py
         │   apps.py
         │   models.py
@@ -536,28 +536,28 @@ Membuat aplikasi ecommece After65Store menggunakan Django versi 5
                 __init__.py
 
         modified:   README.md
-        new file:   app/setting/__init__.py
-        new file:   app/setting/admin.py
-        new file:   app/setting/apps.py
-        new file:   app/setting/migrations/__init__.py
-        new file:   app/setting/models.py
-        new file:   app/setting/tests.py
-        new file:   app/setting/views.py
+        new file:   app/page/__init__.py
+        new file:   app/page/admin.py
+        new file:   app/page/apps.py
+        new file:   app/page/migrations/__init__.py
+        new file:   app/page/models.py
+        new file:   app/page/tests.py
+        new file:   app/page/views.py
 
 
 #### 2. Membuat laman about
 
-        new file:   app/setting/urls.py
-        modified:   app/setting/views.py
+        new file:   app/page/urls.py
+        modified:   app/page/views.py
         modified:   config/urls.py
-        new file:   templates/setting/about.html
+        new file:   templates/page/about.html
         modified:   templates/shared/02_header.html
 
 
 #### 3. Membuat template inheritance pada laman about
 
         modified:   README.md
-        modified:   templates/setting/about.html
+        modified:   templates/page/about.html
         new file:   templates/shared/_brand.html
         new file:   templates/shared/_services.html
         new file:   templates/shared/_testimonial.html
@@ -567,27 +567,27 @@ Membuat aplikasi ecommece After65Store menggunakan Django versi 5
 #### 4. Membuat laman contact
 
         modified:   README.md
-        modified:   app/setting/urls.py
-        modified:   app/setting/views.py
-        modified:   templates/setting/about.html
-        new file:   templates/setting/contact.html
+        modified:   app/page/urls.py
+        modified:   app/page/views.py
+        modified:   templates/page/about.html
+        new file:   templates/page/contact.html
         modified:   templates/shared/02_header.html
 
 
-#### 5. Merubah nama app setting menjadi page
+#### 5. Merubah nama app page menjadi page
 
         modified:   README.md
-        renamed:    app/setting/__init__.py -> app/page/__init__.py
-        renamed:    app/setting/admin.py -> app/page/admin.py
-        renamed:    app/setting/apps.py -> app/page/apps.py
-        renamed:    app/setting/migrations/__init__.py -> app/page/migrations/__init__.py
-        renamed:    app/setting/models.py -> app/page/models.py
-        renamed:    app/setting/tests.py -> app/page/tests.py
-        renamed:    app/setting/urls.py -> app/page/urls.py
-        renamed:    app/setting/views.py -> app/page/views.py
+        renamed:    app/page/__init__.py -> app/page/__init__.py
+        renamed:    app/page/admin.py -> app/page/admin.py
+        renamed:    app/page/apps.py -> app/page/apps.py
+        renamed:    app/page/migrations/__init__.py -> app/page/migrations/__init__.py
+        renamed:    app/page/models.py -> app/page/models.py
+        renamed:    app/page/tests.py -> app/page/tests.py
+        renamed:    app/page/urls.py -> app/page/urls.py
+        renamed:    app/page/views.py -> app/page/views.py
         modified:   config/urls.py
-        renamed:    templates/setting/about.html -> templates/page/about.html
-        renamed:    templates/setting/contact.html -> templates/page/contact.html
+        renamed:    templates/page/about.html -> templates/page/about.html
+        renamed:    templates/page/contact.html -> templates/page/contact.html
         modified:   templates/shared/02_header.html
 
 
@@ -616,3 +616,13 @@ Membuat aplikasi ecommece After65Store menggunakan Django versi 5
         modified:   app/shop/views.py
         modified:   templates/shared/04_off_canvas_cart.html
         new file:   templates/shop/checkout.html
+
+
+#### 9. House keeping - Merubah kata 'setting' menjadi 'page'
+
+        modified:   README.md
+
+        NOTE:
+
+        1. Perubahan nama dilakukan karena nama app 'setting'
+           telah dirubah namanya menjadi 'page'
