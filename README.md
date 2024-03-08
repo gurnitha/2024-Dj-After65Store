@@ -626,3 +626,7 @@ Membuat aplikasi ecommece After65Store menggunakan Django versi 5
 
         1. Perubahan nama dilakukan karena nama app 'setting'
            telah dirubah namanya menjadi 'page'
+
+
+
+## 8. DJANGO APP ACCOUNT
