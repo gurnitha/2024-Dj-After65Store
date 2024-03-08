@@ -21,3 +21,8 @@ def home_view(request):
 def product_list_view(request):
 
 	return render(request, 'shop/product_list.html')
+
+
+def wishlist_view(request):
+
+	return render(request, 'shop/wishlist.html')

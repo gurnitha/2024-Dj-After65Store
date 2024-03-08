@@ -589,3 +589,12 @@ Membuat aplikasi ecommece After65Store menggunakan Django versi 5
         renamed:    templates/setting/about.html -> templates/page/about.html
         renamed:    templates/setting/contact.html -> templates/page/contact.html
         modified:   templates/shared/02_header.html
+
+
+#### 6. Membuat laman wishlish
+
+        modified:   README.md
+        modified:   app/shop/urls.py
+        modified:   app/shop/views.py
+        modified:   templates/shared/03_off_canvas_wishlist.html
+        new file:   templates/shop/wishlist.html
