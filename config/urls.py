@@ -18,4 +18,7 @@ urlpatterns = [
 
     # page path
     path('', include('app.page.urls', namespace='page')),
+
+    # account path
+    path('', include('app.account.urls', namespace='account')),
 ]
