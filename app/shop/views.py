@@ -26,3 +26,8 @@ def product_list_view(request):
 def wishlist_view(request):
 
 	return render(request, 'shop/wishlist.html')
+
+
+def cart_view(request):
+
+	return render(request, 'shop/cart.html')

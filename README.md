@@ -598,3 +598,12 @@ Membuat aplikasi ecommece After65Store menggunakan Django versi 5
         modified:   app/shop/views.py
         modified:   templates/shared/03_off_canvas_wishlist.html
         new file:   templates/shop/wishlist.html
+
+
+#### 7. Membuat laman cart
+
+        modified:   README.md
+        modified:   app/shop/urls.py
+        modified:   app/shop/views.py
+        modified:   templates/shared/04_off_canvas_cart.html
+        new file:   templates/shop/cart.html
